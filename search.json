@@ -1,0 +1,195 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Deep Learning Book",
+    "section": "",
+    "text": "0.1 Why this book\nThis online book is structured for progressive learning with concise chapters, cross references, and searchable HTML pages.1",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#why-this-book",
+    "href": "index.html#why-this-book",
+    "title": "Deep Learning Book",
+    "section": "",
+    "text": "1 Footnote demo: hover the superscript marker to see a preview tooltip, then click for the full note.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "Deep Learning Book",
+    "section": "0.2 How to use",
+    "text": "0.2 How to use\n\nStart with Part I and read chapters in order.\nUse the left sidebar to jump across sections.\nUse search to find concepts quickly.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#learning-path",
+    "href": "index.html#learning-path",
+    "title": "Deep Learning Book",
+    "section": "0.3 Learning path",
+    "text": "0.3 Learning path\nSee Part I: Foundations.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Welcome</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html",
+    "href": "chapters/foundations.html",
+    "title": "2  Foundations",
+    "section": "",
+    "text": "2.1 Core question\nWhat are the minimum mathematical and computational concepts needed to understand modern deep learning systems?1",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html#core-question",
+    "href": "chapters/foundations.html#core-question",
+    "title": "2  Foundations",
+    "section": "",
+    "text": "1 In practice, this baseline includes linear algebra, derivatives, and optimization intuition.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html#key-ideas",
+    "href": "chapters/foundations.html#key-ideas",
+    "title": "2  Foundations",
+    "section": "2.2 Key ideas",
+    "text": "2.2 Key ideas\n\nVectors and matrices represent data and parameters.\nDifferentiable objectives define learning targets.\nComputation graphs organize forward and backward passes.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html#example",
+    "href": "chapters/foundations.html#example",
+    "title": "2  Foundations",
+    "section": "2.3 Example",
+    "text": "2.3 Example\nWe use a simple linear function:\n\\[\ny = \\mathbf{w}^T \\mathbf{x} + b\n\\]\nThis appears repeatedly in deeper models as a local building block.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html#training-geometry",
+    "href": "chapters/foundations.html#training-geometry",
+    "title": "2  Foundations",
+    "section": "2.4 Training geometry",
+    "text": "2.4 Training geometry\nAs shown in Figure 2.1, optimizing parameters is equivalent to moving on a loss surface.\n\n\n\n\n\n\nFigure 2.1: Illustration of a toy loss surface and gradient direction.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/foundations.html#summary",
+    "href": "chapters/foundations.html#summary",
+    "title": "2  Foundations",
+    "section": "2.5 Summary",
+    "text": "2.5 Summary\nFoundations create a shared language for all later chapters.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Foundations</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/linear-models.html",
+    "href": "chapters/linear-models.html",
+    "title": "3  Linear Models",
+    "section": "",
+    "text": "3.1 Problem setup\nGiven feature vectors \\(\\mathbf{x}\\) and targets \\(y\\), fit parameters \\((\\mathbf{w}, b)\\) to minimize prediction error.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Linear Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/linear-models.html#objective",
+    "href": "chapters/linear-models.html#objective",
+    "title": "3  Linear Models",
+    "section": "3.2 Objective",
+    "text": "3.2 Objective\nFor regression, the mean squared error objective is:\n\\[\nL(\\mathbf{w}, b) = \\frac{1}{N} \\sum_{i=1}^{N}(\\hat{y}_i - y_i)^2\n\\]\nwith \\(\\hat{y}_i = \\mathbf{w}^T\\mathbf{x}_i + b\\).",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Linear Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/linear-models.html#why-it-matters",
+    "href": "chapters/linear-models.html#why-it-matters",
+    "title": "3  Linear Models",
+    "section": "3.3 Why it matters",
+    "text": "3.3 Why it matters\nLinear models are simple enough to reason about and form the conceptual bridge to neural networks. For optimization intuition, revisit Figure 2.1 from the foundations chapter.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Linear Models</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/optimization.html",
+    "href": "chapters/optimization.html",
+    "title": "4  Optimization",
+    "section": "",
+    "text": "4.1 Goal\nOptimization updates parameters to reduce loss over training data.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/optimization.html#gradient-descent",
+    "href": "chapters/optimization.html#gradient-descent",
+    "title": "4  Optimization",
+    "section": "4.2 Gradient descent",
+    "text": "4.2 Gradient descent\nA standard update rule is:\n\\[\n\\theta_{t+1} = \\theta_t - \\eta \\nabla_\\theta L(\\theta_t)\n\\]\nwhere \\(\\eta\\) is the learning rate.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/optimization.html#practical-notes",
+    "href": "chapters/optimization.html#practical-notes",
+    "title": "4  Optimization",
+    "section": "4.3 Practical notes",
+    "text": "4.3 Practical notes\n\nToo large a learning rate can diverge.\nToo small a learning rate can stall progress.\nBatch-based updates improve computational efficiency.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "chapters/optimization.html#summary",
+    "href": "chapters/optimization.html#summary",
+    "title": "4  Optimization",
+    "section": "4.4 Summary",
+    "text": "4.4 Summary\nOptimization operationalizes learning by turning objectives into parameter updates.",
+    "crumbs": [
+      "Part I: Foundations",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Optimization</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "5  References",
+    "section": "",
+    "text": "5.1 Bibliography",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>References</span>"
+    ]
+  }
+]

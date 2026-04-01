@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="520" viewBox="0 0 920 520">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f8fcff"/>
+      <stop offset="100%" stop-color="#edf4fb"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#0f5d7a"/>
+    </marker>
+  </defs>
+  <rect width="920" height="520" fill="url(#bg)"/>
+  <path d="M70 410 C190 260, 270 440, 390 330 C510 220, 600 400, 740 250 C790 200, 835 210, 880 230"
+        fill="none" stroke="#94a9bc" stroke-width="40" stroke-linecap="round" stroke-linejoin="round" opacity="0.55"/>
+  <path d="M75 402 C195 252, 270 432, 390 322 C510 212, 600 392, 740 242 C790 192, 835 202, 880 222"
+        fill="none" stroke="#2e4860" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="780" cy="216" r="10" fill="#d24b2f"/>
+  <text x="796" y="214" font-family="Georgia, serif" font-size="22" fill="#1e2a36">Current params</text>
+  <line x1="770" y1="210" x2="675" y2="262" stroke="#0f5d7a" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="586" y="286" font-family="Georgia, serif" font-size="22" fill="#0f5d7a">-η∇L</text>
+  <circle cx="638" cy="270" r="9" fill="#1f7f5c"/>
+  <text x="654" y="278" font-family="Georgia, serif" font-size="22" fill="#1f7f5c">Lower loss</text>
+</svg>
