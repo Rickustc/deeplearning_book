@@ -1,0 +1,22 @@
+---
+title: "Linear Models"
+---
+
+## Problem setup
+
+Given feature vectors $\mathbf{x}$ and targets $y$, fit parameters $(\mathbf{w}, b)$ to minimize prediction error.
+
+## Objective
+
+For regression, the mean squared error objective is:
+
+$$
+L(\mathbf{w}, b) = \frac{1}{N} \sum_{i=1}^{N}(\hat{y}_i - y_i)^2
+$$
+
+with $\hat{y}_i = \mathbf{w}^T\mathbf{x}_i + b$.
+
+## Why it matters
+
+Linear models are simple enough to reason about and form the conceptual bridge to neural networks.
+For optimization intuition, revisit @fig-training-surface from the foundations chapter.

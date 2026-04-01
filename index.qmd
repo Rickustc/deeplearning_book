@@ -1,0 +1,19 @@
+---
+title: "Welcome"
+---
+
+## Why this book
+
+This online book is structured for progressive learning with concise chapters, cross references, and searchable HTML pages.[^intro-note]
+
+## How to use
+
+- Start with Part I and read chapters in order.
+- Use the left sidebar to jump across sections.
+- Use search to find concepts quickly.
+
+## Learning path
+
+See [Part I: Foundations](chapters/foundations.qmd).
+
+[^intro-note]: Footnote demo: hover the superscript marker to see a preview tooltip, then click for the full note.

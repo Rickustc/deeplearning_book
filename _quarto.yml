@@ -1,0 +1,38 @@
+project:
+  type: book
+  output-dir: _site
+
+book:
+  title: "Deep Learning Book"
+  subtitle: "An Interactive Online Textbook"
+  author: "Your Name"
+  date: last-modified
+  search: true
+  page-navigation: true
+  chapters:
+    - index.qmd
+    - part: "Part I: Foundations"
+      chapters:
+        - chapters/foundations.qmd
+        - chapters/linear-models.qmd
+        - chapters/optimization.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    lightbox: true
+    cap-location: margin
+    reference-location: margin
+    toc: true
+    toc-depth: 3
+    number-sections: true
+    smooth-scroll: true
+    grid:
+      gutter-width: 2em
+
+execute:
+  freeze: auto

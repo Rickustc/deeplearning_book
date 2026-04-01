@@ -1,0 +1,27 @@
+---
+title: "Optimization"
+---
+
+## Goal
+
+Optimization updates parameters to reduce loss over training data.
+
+## Gradient descent
+
+A standard update rule is:
+
+$$
+\theta_{t+1} = \theta_t - \eta \nabla_\theta L(\theta_t)
+$$
+
+where $\eta$ is the learning rate.
+
+## Practical notes
+
+- Too large a learning rate can diverge.
+- Too small a learning rate can stall progress.
+- Batch-based updates improve computational efficiency.
+
+## Summary
+
+Optimization operationalizes learning by turning objectives into parameter updates.
